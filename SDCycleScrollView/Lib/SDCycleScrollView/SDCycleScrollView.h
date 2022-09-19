@@ -120,6 +120,9 @@ typedef enum {
 /** 是否自动滚动,默认Yes */
 @property (nonatomic,assign) BOOL autoScroll;
 
+/** 手动操作后是否需要停止滚动 */
+@property (nonatomic,assign) BOOL isManualOperationStop;
+
 /** 图片滚动方向，默认为水平滚动 */
 @property (nonatomic, assign) UICollectionViewScrollDirection scrollDirection;
 
